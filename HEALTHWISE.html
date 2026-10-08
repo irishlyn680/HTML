@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HEALTHWISE | Learn. Stay Healthy. Stay Informed.</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+        <div class="logo">
+            🩺 <span>HEALTHWISE</span>
+        </div>
+
+        <p class="tagline">Learn. Stay Healthy. Stay Informed.</p>
+
+        <nav>
+            <a href="#home">🏠 Home</a>
+            <a href="#health">🩺 Health</a>
+            <a href="#nutrition">🥗 Nutrition</a>
+            <a href="#hygiene">🧼 Hygiene</a>
+            <a href="#lifestyle">❤️ Lifestyle</a>
+            <a href="#help">🚨 Medical Help</a>
+            <a href="#references">📚 References</a>
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-icon">❤️</div>
+
+            <h1>HEALTHWISE</h1>
+
+            <h2>Learn. Stay Healthy. Stay Informed.</h2>
+
+            <p>
+                Welcome to HEALTHWISE! This website provides simple and
+                useful information about health, nutrition, hygiene,
+                healthy habits, and when to seek medical help.
+            </p>
+
+            <a href="#health" class="hero-button">
+                Explore Health Topics
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section">
+
+        <div class="section-title">
+            <span>🌿</span>
+            <h2>About HEALTHWISE</h2>
+        </div>
+
+        <div class="about-box">
+
+            <p>
+                HEALTHWISE is an educational website created to help students
+                learn more about taking care of their health.
+            </p>
+
+            <p>
+                It covers important topics such as physical and mental health,
+                nutrition, hygiene, healthy lifestyle choices, and warning
+                signs that may require medical attention.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HEALTH TIP ================= -->
+
+    <section class="section tip-section">
+
+        <div class="section-title">
+            <span>💡</span>
+            <h2>Health Tip of the Day</h2>
+        </div>
+
+        <div class="tip-box">
+
+            <p id="healthTip">
+                💧 Drink enough water throughout the day to help your body
+                stay hydrated.
+            </p>
+
+            <button onclick="nextTip()">
+                Next Health Tip
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HEALTH INFORMATION ================= -->
+
+    <section id="health" class="section">
+
+        <div class="section-title">
+            <span>🩺</span>
+            <h2>Health Information</h2>
+        </div>
+
+        <p class="section-intro">
+            Understanding your health can help you make better everyday
+            decisions.
+        </p>
+
+        <div class="card-grid">
+
+            <div class="card">
+                <div class="card-icon">🧠</div>
+                <h3>Mental Health</h3>
+                <p>
+                    Mental health affects how we think, feel, handle stress,
+                    and interact with other people.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">💪</div>
+                <h3>Physical Health</h3>
+                <p>
+                    Physical health involves taking care of your body through
+                    healthy habits, movement, rest, and proper nutrition.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🩺</div>
+                <h3>Regular Checkups</h3>
+                <p>
+                    Regular health checkups can help identify health concerns
+                    and encourage preventive care.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">💧</div>
+                <h3>Stay Hydrated</h3>
+                <p>
+                    Water is important for many functions of the body.
+                    Drink water regularly throughout the day.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NUTRITION ================= -->
+
+    <section id="nutrition" class="section nutrition-section">
+
+        <div class="section-title">
+            <span>🥗</span>
+            <h2>Nutrition</h2>
+        </div>
+
+        <p class="section-intro">
+            A balanced diet provides the nutrients your body needs to grow,
+            function, and stay healthy.
+        </p>
+
+        <div class="card-grid">
+
+            <div class="food-card">
+
+                <button onclick="showFood(this)">
+                    🍚 Carbohydrates
+                </button>
+
+                <div class="food-info">
+                    <p>
+                        Carbohydrates provide energy for everyday activities.
+                        Examples include rice, bread, potatoes, and grains.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <button onclick="showFood(this)">
+                    🍗 Protein
+                </button>
+
+                <div class="food-info">
+                    <p>
+                        Protein helps build and repair body tissues.
+                        Examples include fish, eggs, meat, beans, and tofu.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <button onclick="showFood(this)">
+                    🥦 Vegetables
+                </button>
+
+                <div class="food-info">
+                    <p>
+                        Vegetables provide vitamins, minerals, and fiber
+                        that support overall health.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <button onclick="showFood(this)">
+                    🍎 Fruits
+                </button>
+
+                <div class="food-info">
+                    <p>
+                        Fruits provide vitamins, minerals, fiber, and other
+                        nutrients that support a healthy diet.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <button onclick="showFood(this)">
+                    💧 Water
+                </button>
+
+                <div class="food-info">
+                    <p>
+                        Water helps the body regulate temperature and supports
+                        many important body functions.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <button onclick="showFood(this)">
+                    🍽️ Balanced Meals
+                </button>
+
+                <div class="food-info">
+                    <p>
+                        A balanced meal includes a variety of foods that
+                        provide different nutrients.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HYGIENE ================= -->
+
+    <section id="hygiene" class="section">
+
+        <div class="section-title">
+            <span>🧼</span>
+            <h2>Hygiene & Prevention</h2>
+        </div>
+
+        <div class="card-grid">
+
+            <div class="card">
+                <div class="card-icon">🧼</div>
+                <h3>Wash Your Hands</h3>
+                <p>
+                    Wash your hands regularly to help remove germs and reduce
+                    the spread of illness.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🦷</div>
+                <h3>Oral Hygiene</h3>
+                <p>
+                    Brush your teeth regularly and take care of your mouth
+                    and gums.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🚿</div>
+                <h3>Personal Hygiene</h3>
+                <p>
+                    Regular bathing and clean clothes can help maintain
+                    personal cleanliness.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">😷</div>
+                <h3>Cover Coughs</h3>
+                <p>
+                    Cover your coughs and sneezes to help reduce the spread
+                    of respiratory germs.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🧹</div>
+                <h3>Clean Surroundings</h3>
+                <p>
+                    Keeping your surroundings clean can help create a
+                    healthier environment.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🛡️</div>
+                <h3>Prevent Illness</h3>
+                <p>
+                    Good hygiene, healthy habits, and appropriate healthcare
+                    can help prevent some illnesses.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUIZ -->
+
+        <div class="quiz-box">
+
+            <h3>🧠 Quick Hygiene Quiz</h3>
+
+            <p>
+                Should you wash your hands regularly to help prevent
+                the spread of germs?
+            </p>
+
+            <div class="quiz-buttons">
+
+                <button onclick="checkQuiz('yes')">
+                    YES
+                </button>
+
+                <button onclick="checkQuiz('no')">
+                    NO
+                </button>
+
+            </div>
+
+            <div id="quizResult"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HEALTHY LIFESTYLE ================= -->
+
+    <section id="lifestyle" class="section lifestyle-section">
+
+        <div class="section-title">
+            <span>❤️</span>
+            <h2>Healthy Lifestyle</h2>
+        </div>
+
+        <div class="card-grid">
+
+            <div class="card">
+                <div class="card-icon">🏃</div>
+                <h3>Stay Active</h3>
+                <p>
+                    Choose safe physical activities that you enjoy and
+                    fit into your daily routine.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">😴</div>
+                <h3>Sleep Well</h3>
+                <p>
+                    Getting enough quality sleep helps support your body
+                    and mind.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🧘</div>
+                <h3>Manage Stress</h3>
+                <p>
+                    Take breaks, relax, and talk to someone you trust when
+                    you feel overwhelmed.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">💚</div>
+                <h3>Take Care of Yourself</h3>
+                <p>
+                    Make time for rest, healthy food, personal hygiene,
+                    and activities that support your well-being.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- HABIT CHECKER -->
+
+        <div class="habit-box" id="habitChecker">
+
+            <h3>✅ My Healthy Habits</h3>
+
+            <label>
+                <input type="checkbox">
+                I drank enough water today.
+            </label>
+
+            <label>
+                <input type="checkbox">
+                I ate a balanced meal.
+            </label>
+
+            <label>
+                <input type="checkbox">
+                I washed my hands regularly.
+            </label>
+
+            <label>
+                <input type="checkbox">
+                I got enough rest.
+            </label>
+
+            <label>
+                <input type="checkbox">
+                I stayed physically active.
+            </label>
+
+            <label>
+                <input type="checkbox">
+                I took time to relax.
+            </label>
+
+            <button onclick="checkHabits()">
+                Check My Habits
+            </button>
+
+            <div id="habitResult"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MEDICAL HELP ================= -->
+
+    <section id="help" class="section medical-section">
+
+        <div class="section-title">
+            <span>🚨</span>
+            <h2>When to Seek Medical Help</h2>
+        </div>
+
+        <p class="section-intro">
+            Some symptoms may require urgent medical attention.
+            Click a topic to learn more.
+        </p>
+
+
+        <div class="medical-buttons">
+
+            <button onclick="showMedical('breathing')">
+                🫁 Breathing Problems
+            </button>
+
+            <button onclick="showMedical('chest')">
+                ❤️ Chest Pain
+            </button>
+
+            <button onclick="showMedical('fainting')">
+                ⚠️ Fainting / Confusion
+            </button>
+
+            <button onclick="showMedical('bleeding')">
+                🩸 Severe Bleeding
+            </button>
+
+        </div>
+
+
+        <div id="medicalAnswer" class="medical-answer">
+
+            <p>
+                Select a topic above to learn when medical attention
+                may be needed.
+            </p>
+
+        </div>
+
+
+        <div class="emergency-note">
+
+            <strong>🚨 Important:</strong>
+
+            <p>
+                For serious or life-threatening emergencies, seek emergency
+                medical care or contact your local emergency service.
+            </p>
+
+        </div>
+
+
+        <div class="disclaimer">
+
+            <strong>📌 Disclaimer</strong>
+
+            <p>
+                HEALTHWISE is an educational website. The information
+                provided is for general learning and does not replace
+                advice, diagnosis, or treatment from a qualified healthcare
+                professional.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= REFERENCES ================= -->
+
+    <section id="references" class="section">
+
+        <div class="section-title">
+            <span>📚</span>
+            <h2>References</h2>
+        </div>
+
+        <div class="reference-grid">
+
+            <a href="https://www.who.int/" target="_blank" class="reference-card">
+                🌍
+                <h3>World Health Organization</h3>
+                <p>Health information and resources.</p>
+            </a>
+
+            <a href="https://www.cdc.gov/" target="_blank" class="reference-card">
+                🏥
+                <h3>Centers for Disease Control and Prevention</h3>
+                <p>Health and disease prevention information.</p>
+            </a>
+
+            <a href="https://www.myplate.gov/" target="_blank" class="reference-card">
+                🥗
+                <h3>MyPlate</h3>
+                <p>Information about healthy eating and nutrition.</p>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>🩺 HEALTHWISE</h3>
+
+        <p>
+            Learn. Stay Healthy. Stay Informed.
+        </p>
+
+        <p>
+            © 2026 HEALTHWISE | Educational Health Website
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
